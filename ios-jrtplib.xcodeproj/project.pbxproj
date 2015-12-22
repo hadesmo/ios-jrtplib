@@ -7,8 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3F9E6661BFC088E0052EA85 /* ios_jrtplib.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3F9E6651BFC088E0052EA85 /* ios_jrtplib.h */; };
-		B3F9E6681BFC088E0052EA85 /* ios_jrtplib.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F9E6671BFC088E0052EA85 /* ios_jrtplib.m */; };
+		B3FA894E1C28F622001471A2 /* jmutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA88F51C28F622001471A2 /* jmutex.cpp */; };
+		B3FA894F1C28F622001471A2 /* rtcpapppacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA88F71C28F622001471A2 /* rtcpapppacket.cpp */; };
+		B3FA89501C28F622001471A2 /* rtcpbyepacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA88F91C28F622001471A2 /* rtcpbyepacket.cpp */; };
+		B3FA89511C28F622001471A2 /* rtcpcompoundpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA88FB1C28F622001471A2 /* rtcpcompoundpacket.cpp */; };
+		B3FA89521C28F622001471A2 /* rtcpcompoundpacketbuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA88FD1C28F622001471A2 /* rtcpcompoundpacketbuilder.cpp */; };
+		B3FA89531C28F622001471A2 /* rtcppacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA88FF1C28F622001471A2 /* rtcppacket.cpp */; };
+		B3FA89541C28F622001471A2 /* rtcppacketbuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89011C28F622001471A2 /* rtcppacketbuilder.cpp */; };
+		B3FA89551C28F622001471A2 /* rtcprrpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89031C28F622001471A2 /* rtcprrpacket.cpp */; };
+		B3FA89561C28F622001471A2 /* rtcpscheduler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89051C28F622001471A2 /* rtcpscheduler.cpp */; };
+		B3FA89571C28F622001471A2 /* rtcpsdesinfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89071C28F622001471A2 /* rtcpsdesinfo.cpp */; };
+		B3FA89581C28F622001471A2 /* rtcpsdespacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89091C28F622001471A2 /* rtcpsdespacket.cpp */; };
+		B3FA89591C28F622001471A2 /* rtcpsrpacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA890B1C28F622001471A2 /* rtcpsrpacket.cpp */; };
+		B3FA895A1C28F622001471A2 /* rtpbyteaddress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA890F1C28F622001471A2 /* rtpbyteaddress.cpp */; };
+		B3FA895B1C28F622001471A2 /* rtpcollisionlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89111C28F622001471A2 /* rtpcollisionlist.cpp */; };
+		B3FA895C1C28F622001471A2 /* rtpdebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89151C28F622001471A2 /* rtpdebug.cpp */; };
+		B3FA895D1C28F622001471A2 /* rtperrors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89181C28F622001471A2 /* rtperrors.cpp */; };
+		B3FA895E1C28F622001471A2 /* rtpexternaltransmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA891A1C28F622001471A2 /* rtpexternaltransmitter.cpp */; };
+		B3FA895F1C28F622001471A2 /* rtpinternalsourcedata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA891D1C28F622001471A2 /* rtpinternalsourcedata.cpp */; };
+		B3FA89601C28F622001471A2 /* rtpipv4address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA891F1C28F622001471A2 /* rtpipv4address.cpp */; };
+		B3FA89611C28F622001471A2 /* rtpipv6address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89221C28F622001471A2 /* rtpipv6address.cpp */; };
+		B3FA89621C28F622001471A2 /* rtplibraryversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89261C28F622001471A2 /* rtplibraryversion.cpp */; };
+		B3FA89631C28F622001471A2 /* rtppacket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA892A1C28F622001471A2 /* rtppacket.cpp */; };
+		B3FA89641C28F622001471A2 /* rtppacketbuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA892C1C28F622001471A2 /* rtppacketbuilder.cpp */; };
+		B3FA89651C28F622001471A2 /* rtppollthread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA892E1C28F622001471A2 /* rtppollthread.cpp */; };
+		B3FA89661C28F622001471A2 /* rtprandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89301C28F622001471A2 /* rtprandom.cpp */; };
+		B3FA89671C28F622001471A2 /* rtprandomrand48.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89321C28F622001471A2 /* rtprandomrand48.cpp */; };
+		B3FA89681C28F622001471A2 /* rtprandomrands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89341C28F622001471A2 /* rtprandomrands.cpp */; };
+		B3FA89691C28F622001471A2 /* rtprandomurandom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89361C28F622001471A2 /* rtprandomurandom.cpp */; };
+		B3FA896A1C28F622001471A2 /* rtpsession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89391C28F622001471A2 /* rtpsession.cpp */; };
+		B3FA896B1C28F622001471A2 /* rtpsessionparams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA893B1C28F622001471A2 /* rtpsessionparams.cpp */; };
+		B3FA896C1C28F622001471A2 /* rtpsessionsources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA893D1C28F622001471A2 /* rtpsessionsources.cpp */; };
+		B3FA896D1C28F622001471A2 /* rtpsourcedata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA893F1C28F622001471A2 /* rtpsourcedata.cpp */; };
+		B3FA896E1C28F622001471A2 /* rtpsources.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89411C28F622001471A2 /* rtpsources.cpp */; };
+		B3FA896F1C28F622001471A2 /* rtptimeutilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA89441C28F622001471A2 /* rtptimeutilities.cpp */; };
+		B3FA89701C28F622001471A2 /* rtpudpv4transmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA894A1C28F622001471A2 /* rtpudpv4transmitter.cpp */; };
+		B3FA89711C28F622001471A2 /* rtpudpv6transmitter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B3FA894C1C28F622001471A2 /* rtpudpv6transmitter.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +52,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				B3F9E6661BFC088E0052EA85 /* ios_jrtplib.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +59,95 @@
 
 /* Begin PBXFileReference section */
 		B3F9E6621BFC088E0052EA85 /* libios-jrtplib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libios-jrtplib.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3F9E6651BFC088E0052EA85 /* ios_jrtplib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ios_jrtplib.h; sourceTree = "<group>"; };
-		B3F9E6671BFC088E0052EA85 /* ios_jrtplib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_jrtplib.m; sourceTree = "<group>"; };
+		B3FA88F51C28F622001471A2 /* jmutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jmutex.cpp; sourceTree = "<group>"; };
+		B3FA88F61C28F622001471A2 /* jmutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jmutex.h; sourceTree = "<group>"; };
+		B3FA88F71C28F622001471A2 /* rtcpapppacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcpapppacket.cpp; sourceTree = "<group>"; };
+		B3FA88F81C28F622001471A2 /* rtcpapppacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcpapppacket.h; sourceTree = "<group>"; };
+		B3FA88F91C28F622001471A2 /* rtcpbyepacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcpbyepacket.cpp; sourceTree = "<group>"; };
+		B3FA88FA1C28F622001471A2 /* rtcpbyepacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcpbyepacket.h; sourceTree = "<group>"; };
+		B3FA88FB1C28F622001471A2 /* rtcpcompoundpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcpcompoundpacket.cpp; sourceTree = "<group>"; };
+		B3FA88FC1C28F622001471A2 /* rtcpcompoundpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcpcompoundpacket.h; sourceTree = "<group>"; };
+		B3FA88FD1C28F622001471A2 /* rtcpcompoundpacketbuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcpcompoundpacketbuilder.cpp; sourceTree = "<group>"; };
+		B3FA88FE1C28F622001471A2 /* rtcpcompoundpacketbuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcpcompoundpacketbuilder.h; sourceTree = "<group>"; };
+		B3FA88FF1C28F622001471A2 /* rtcppacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcppacket.cpp; sourceTree = "<group>"; };
+		B3FA89001C28F622001471A2 /* rtcppacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcppacket.h; sourceTree = "<group>"; };
+		B3FA89011C28F622001471A2 /* rtcppacketbuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcppacketbuilder.cpp; sourceTree = "<group>"; };
+		B3FA89021C28F622001471A2 /* rtcppacketbuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcppacketbuilder.h; sourceTree = "<group>"; };
+		B3FA89031C28F622001471A2 /* rtcprrpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcprrpacket.cpp; sourceTree = "<group>"; };
+		B3FA89041C28F622001471A2 /* rtcprrpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcprrpacket.h; sourceTree = "<group>"; };
+		B3FA89051C28F622001471A2 /* rtcpscheduler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcpscheduler.cpp; sourceTree = "<group>"; };
+		B3FA89061C28F622001471A2 /* rtcpscheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcpscheduler.h; sourceTree = "<group>"; };
+		B3FA89071C28F622001471A2 /* rtcpsdesinfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcpsdesinfo.cpp; sourceTree = "<group>"; };
+		B3FA89081C28F622001471A2 /* rtcpsdesinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcpsdesinfo.h; sourceTree = "<group>"; };
+		B3FA89091C28F622001471A2 /* rtcpsdespacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcpsdespacket.cpp; sourceTree = "<group>"; };
+		B3FA890A1C28F622001471A2 /* rtcpsdespacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcpsdespacket.h; sourceTree = "<group>"; };
+		B3FA890B1C28F622001471A2 /* rtcpsrpacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtcpsrpacket.cpp; sourceTree = "<group>"; };
+		B3FA890C1C28F622001471A2 /* rtcpsrpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcpsrpacket.h; sourceTree = "<group>"; };
+		B3FA890D1C28F622001471A2 /* rtcpunknownpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtcpunknownpacket.h; sourceTree = "<group>"; };
+		B3FA890E1C28F622001471A2 /* rtpaddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpaddress.h; sourceTree = "<group>"; };
+		B3FA890F1C28F622001471A2 /* rtpbyteaddress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpbyteaddress.cpp; sourceTree = "<group>"; };
+		B3FA89101C28F622001471A2 /* rtpbyteaddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpbyteaddress.h; sourceTree = "<group>"; };
+		B3FA89111C28F622001471A2 /* rtpcollisionlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpcollisionlist.cpp; sourceTree = "<group>"; };
+		B3FA89121C28F622001471A2 /* rtpcollisionlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpcollisionlist.h; sourceTree = "<group>"; };
+		B3FA89131C28F622001471A2 /* rtpconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpconfig.h; sourceTree = "<group>"; };
+		B3FA89141C28F622001471A2 /* rtpconfig.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rtpconfig.h.in; sourceTree = "<group>"; };
+		B3FA89151C28F622001471A2 /* rtpdebug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpdebug.cpp; sourceTree = "<group>"; };
+		B3FA89161C28F622001471A2 /* rtpdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpdebug.h; sourceTree = "<group>"; };
+		B3FA89171C28F622001471A2 /* rtpdefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpdefines.h; sourceTree = "<group>"; };
+		B3FA89181C28F622001471A2 /* rtperrors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtperrors.cpp; sourceTree = "<group>"; };
+		B3FA89191C28F622001471A2 /* rtperrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtperrors.h; sourceTree = "<group>"; };
+		B3FA891A1C28F622001471A2 /* rtpexternaltransmitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpexternaltransmitter.cpp; sourceTree = "<group>"; };
+		B3FA891B1C28F622001471A2 /* rtpexternaltransmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpexternaltransmitter.h; sourceTree = "<group>"; };
+		B3FA891C1C28F622001471A2 /* rtphashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtphashtable.h; sourceTree = "<group>"; };
+		B3FA891D1C28F622001471A2 /* rtpinternalsourcedata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpinternalsourcedata.cpp; sourceTree = "<group>"; };
+		B3FA891E1C28F622001471A2 /* rtpinternalsourcedata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpinternalsourcedata.h; sourceTree = "<group>"; };
+		B3FA891F1C28F622001471A2 /* rtpipv4address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpipv4address.cpp; sourceTree = "<group>"; };
+		B3FA89201C28F622001471A2 /* rtpipv4address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpipv4address.h; sourceTree = "<group>"; };
+		B3FA89211C28F622001471A2 /* rtpipv4destination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpipv4destination.h; sourceTree = "<group>"; };
+		B3FA89221C28F622001471A2 /* rtpipv6address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpipv6address.cpp; sourceTree = "<group>"; };
+		B3FA89231C28F622001471A2 /* rtpipv6address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpipv6address.h; sourceTree = "<group>"; };
+		B3FA89241C28F622001471A2 /* rtpipv6destination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpipv6destination.h; sourceTree = "<group>"; };
+		B3FA89251C28F622001471A2 /* rtpkeyhashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpkeyhashtable.h; sourceTree = "<group>"; };
+		B3FA89261C28F622001471A2 /* rtplibraryversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtplibraryversion.cpp; sourceTree = "<group>"; };
+		B3FA89271C28F622001471A2 /* rtplibraryversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtplibraryversion.h; sourceTree = "<group>"; };
+		B3FA89281C28F622001471A2 /* rtpmemorymanager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpmemorymanager.h; sourceTree = "<group>"; };
+		B3FA89291C28F622001471A2 /* rtpmemoryobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpmemoryobject.h; sourceTree = "<group>"; };
+		B3FA892A1C28F622001471A2 /* rtppacket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtppacket.cpp; sourceTree = "<group>"; };
+		B3FA892B1C28F622001471A2 /* rtppacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtppacket.h; sourceTree = "<group>"; };
+		B3FA892C1C28F622001471A2 /* rtppacketbuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtppacketbuilder.cpp; sourceTree = "<group>"; };
+		B3FA892D1C28F622001471A2 /* rtppacketbuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtppacketbuilder.h; sourceTree = "<group>"; };
+		B3FA892E1C28F622001471A2 /* rtppollthread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtppollthread.cpp; sourceTree = "<group>"; };
+		B3FA892F1C28F622001471A2 /* rtppollthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtppollthread.h; sourceTree = "<group>"; };
+		B3FA89301C28F622001471A2 /* rtprandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtprandom.cpp; sourceTree = "<group>"; };
+		B3FA89311C28F622001471A2 /* rtprandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtprandom.h; sourceTree = "<group>"; };
+		B3FA89321C28F622001471A2 /* rtprandomrand48.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtprandomrand48.cpp; sourceTree = "<group>"; };
+		B3FA89331C28F622001471A2 /* rtprandomrand48.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtprandomrand48.h; sourceTree = "<group>"; };
+		B3FA89341C28F622001471A2 /* rtprandomrands.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtprandomrands.cpp; sourceTree = "<group>"; };
+		B3FA89351C28F622001471A2 /* rtprandomrands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtprandomrands.h; sourceTree = "<group>"; };
+		B3FA89361C28F622001471A2 /* rtprandomurandom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtprandomurandom.cpp; sourceTree = "<group>"; };
+		B3FA89371C28F622001471A2 /* rtprandomurandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtprandomurandom.h; sourceTree = "<group>"; };
+		B3FA89381C28F622001471A2 /* rtprawpacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtprawpacket.h; sourceTree = "<group>"; };
+		B3FA89391C28F622001471A2 /* rtpsession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpsession.cpp; sourceTree = "<group>"; };
+		B3FA893A1C28F622001471A2 /* rtpsession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpsession.h; sourceTree = "<group>"; };
+		B3FA893B1C28F622001471A2 /* rtpsessionparams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpsessionparams.cpp; sourceTree = "<group>"; };
+		B3FA893C1C28F622001471A2 /* rtpsessionparams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpsessionparams.h; sourceTree = "<group>"; };
+		B3FA893D1C28F622001471A2 /* rtpsessionsources.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpsessionsources.cpp; sourceTree = "<group>"; };
+		B3FA893E1C28F622001471A2 /* rtpsessionsources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpsessionsources.h; sourceTree = "<group>"; };
+		B3FA893F1C28F622001471A2 /* rtpsourcedata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpsourcedata.cpp; sourceTree = "<group>"; };
+		B3FA89401C28F622001471A2 /* rtpsourcedata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpsourcedata.h; sourceTree = "<group>"; };
+		B3FA89411C28F622001471A2 /* rtpsources.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpsources.cpp; sourceTree = "<group>"; };
+		B3FA89421C28F622001471A2 /* rtpsources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpsources.h; sourceTree = "<group>"; };
+		B3FA89431C28F622001471A2 /* rtpstructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpstructs.h; sourceTree = "<group>"; };
+		B3FA89441C28F622001471A2 /* rtptimeutilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtptimeutilities.cpp; sourceTree = "<group>"; };
+		B3FA89451C28F622001471A2 /* rtptimeutilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtptimeutilities.h; sourceTree = "<group>"; };
+		B3FA89461C28F622001471A2 /* rtptransmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtptransmitter.h; sourceTree = "<group>"; };
+		B3FA89471C28F622001471A2 /* rtptypes_win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtptypes_win.h; sourceTree = "<group>"; };
+		B3FA89481C28F622001471A2 /* rtptypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtptypes.h; sourceTree = "<group>"; };
+		B3FA89491C28F622001471A2 /* rtptypes.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = rtptypes.h.in; sourceTree = "<group>"; };
+		B3FA894A1C28F622001471A2 /* rtpudpv4transmitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpudpv4transmitter.cpp; sourceTree = "<group>"; };
+		B3FA894B1C28F622001471A2 /* rtpudpv4transmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpudpv4transmitter.h; sourceTree = "<group>"; };
+		B3FA894C1C28F622001471A2 /* rtpudpv6transmitter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rtpudpv6transmitter.cpp; sourceTree = "<group>"; };
+		B3FA894D1C28F622001471A2 /* rtpudpv6transmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtpudpv6transmitter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +180,95 @@
 		B3F9E6641BFC088E0052EA85 /* ios-jrtplib */ = {
 			isa = PBXGroup;
 			children = (
-				B3F9E6651BFC088E0052EA85 /* ios_jrtplib.h */,
-				B3F9E6671BFC088E0052EA85 /* ios_jrtplib.m */,
+				B3FA88F51C28F622001471A2 /* jmutex.cpp */,
+				B3FA88F61C28F622001471A2 /* jmutex.h */,
+				B3FA88F71C28F622001471A2 /* rtcpapppacket.cpp */,
+				B3FA88F81C28F622001471A2 /* rtcpapppacket.h */,
+				B3FA88F91C28F622001471A2 /* rtcpbyepacket.cpp */,
+				B3FA88FA1C28F622001471A2 /* rtcpbyepacket.h */,
+				B3FA88FB1C28F622001471A2 /* rtcpcompoundpacket.cpp */,
+				B3FA88FC1C28F622001471A2 /* rtcpcompoundpacket.h */,
+				B3FA88FD1C28F622001471A2 /* rtcpcompoundpacketbuilder.cpp */,
+				B3FA88FE1C28F622001471A2 /* rtcpcompoundpacketbuilder.h */,
+				B3FA88FF1C28F622001471A2 /* rtcppacket.cpp */,
+				B3FA89001C28F622001471A2 /* rtcppacket.h */,
+				B3FA89011C28F622001471A2 /* rtcppacketbuilder.cpp */,
+				B3FA89021C28F622001471A2 /* rtcppacketbuilder.h */,
+				B3FA89031C28F622001471A2 /* rtcprrpacket.cpp */,
+				B3FA89041C28F622001471A2 /* rtcprrpacket.h */,
+				B3FA89051C28F622001471A2 /* rtcpscheduler.cpp */,
+				B3FA89061C28F622001471A2 /* rtcpscheduler.h */,
+				B3FA89071C28F622001471A2 /* rtcpsdesinfo.cpp */,
+				B3FA89081C28F622001471A2 /* rtcpsdesinfo.h */,
+				B3FA89091C28F622001471A2 /* rtcpsdespacket.cpp */,
+				B3FA890A1C28F622001471A2 /* rtcpsdespacket.h */,
+				B3FA890B1C28F622001471A2 /* rtcpsrpacket.cpp */,
+				B3FA890C1C28F622001471A2 /* rtcpsrpacket.h */,
+				B3FA890D1C28F622001471A2 /* rtcpunknownpacket.h */,
+				B3FA890E1C28F622001471A2 /* rtpaddress.h */,
+				B3FA890F1C28F622001471A2 /* rtpbyteaddress.cpp */,
+				B3FA89101C28F622001471A2 /* rtpbyteaddress.h */,
+				B3FA89111C28F622001471A2 /* rtpcollisionlist.cpp */,
+				B3FA89121C28F622001471A2 /* rtpcollisionlist.h */,
+				B3FA89131C28F622001471A2 /* rtpconfig.h */,
+				B3FA89141C28F622001471A2 /* rtpconfig.h.in */,
+				B3FA89151C28F622001471A2 /* rtpdebug.cpp */,
+				B3FA89161C28F622001471A2 /* rtpdebug.h */,
+				B3FA89171C28F622001471A2 /* rtpdefines.h */,
+				B3FA89181C28F622001471A2 /* rtperrors.cpp */,
+				B3FA89191C28F622001471A2 /* rtperrors.h */,
+				B3FA891A1C28F622001471A2 /* rtpexternaltransmitter.cpp */,
+				B3FA891B1C28F622001471A2 /* rtpexternaltransmitter.h */,
+				B3FA891C1C28F622001471A2 /* rtphashtable.h */,
+				B3FA891D1C28F622001471A2 /* rtpinternalsourcedata.cpp */,
+				B3FA891E1C28F622001471A2 /* rtpinternalsourcedata.h */,
+				B3FA891F1C28F622001471A2 /* rtpipv4address.cpp */,
+				B3FA89201C28F622001471A2 /* rtpipv4address.h */,
+				B3FA89211C28F622001471A2 /* rtpipv4destination.h */,
+				B3FA89221C28F622001471A2 /* rtpipv6address.cpp */,
+				B3FA89231C28F622001471A2 /* rtpipv6address.h */,
+				B3FA89241C28F622001471A2 /* rtpipv6destination.h */,
+				B3FA89251C28F622001471A2 /* rtpkeyhashtable.h */,
+				B3FA89261C28F622001471A2 /* rtplibraryversion.cpp */,
+				B3FA89271C28F622001471A2 /* rtplibraryversion.h */,
+				B3FA89281C28F622001471A2 /* rtpmemorymanager.h */,
+				B3FA89291C28F622001471A2 /* rtpmemoryobject.h */,
+				B3FA892A1C28F622001471A2 /* rtppacket.cpp */,
+				B3FA892B1C28F622001471A2 /* rtppacket.h */,
+				B3FA892C1C28F622001471A2 /* rtppacketbuilder.cpp */,
+				B3FA892D1C28F622001471A2 /* rtppacketbuilder.h */,
+				B3FA892E1C28F622001471A2 /* rtppollthread.cpp */,
+				B3FA892F1C28F622001471A2 /* rtppollthread.h */,
+				B3FA89301C28F622001471A2 /* rtprandom.cpp */,
+				B3FA89311C28F622001471A2 /* rtprandom.h */,
+				B3FA89321C28F622001471A2 /* rtprandomrand48.cpp */,
+				B3FA89331C28F622001471A2 /* rtprandomrand48.h */,
+				B3FA89341C28F622001471A2 /* rtprandomrands.cpp */,
+				B3FA89351C28F622001471A2 /* rtprandomrands.h */,
+				B3FA89361C28F622001471A2 /* rtprandomurandom.cpp */,
+				B3FA89371C28F622001471A2 /* rtprandomurandom.h */,
+				B3FA89381C28F622001471A2 /* rtprawpacket.h */,
+				B3FA89391C28F622001471A2 /* rtpsession.cpp */,
+				B3FA893A1C28F622001471A2 /* rtpsession.h */,
+				B3FA893B1C28F622001471A2 /* rtpsessionparams.cpp */,
+				B3FA893C1C28F622001471A2 /* rtpsessionparams.h */,
+				B3FA893D1C28F622001471A2 /* rtpsessionsources.cpp */,
+				B3FA893E1C28F622001471A2 /* rtpsessionsources.h */,
+				B3FA893F1C28F622001471A2 /* rtpsourcedata.cpp */,
+				B3FA89401C28F622001471A2 /* rtpsourcedata.h */,
+				B3FA89411C28F622001471A2 /* rtpsources.cpp */,
+				B3FA89421C28F622001471A2 /* rtpsources.h */,
+				B3FA89431C28F622001471A2 /* rtpstructs.h */,
+				B3FA89441C28F622001471A2 /* rtptimeutilities.cpp */,
+				B3FA89451C28F622001471A2 /* rtptimeutilities.h */,
+				B3FA89461C28F622001471A2 /* rtptransmitter.h */,
+				B3FA89471C28F622001471A2 /* rtptypes_win.h */,
+				B3FA89481C28F622001471A2 /* rtptypes.h */,
+				B3FA89491C28F622001471A2 /* rtptypes.h.in */,
+				B3FA894A1C28F622001471A2 /* rtpudpv4transmitter.cpp */,
+				B3FA894B1C28F622001471A2 /* rtpudpv4transmitter.h */,
+				B3FA894C1C28F622001471A2 /* rtpudpv6transmitter.cpp */,
+				B3FA894D1C28F622001471A2 /* rtpudpv6transmitter.h */,
 			);
 			path = "ios-jrtplib";
 			sourceTree = "<group>";
@@ -122,7 +329,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3F9E6681BFC088E0052EA85 /* ios_jrtplib.m in Sources */,
+				B3FA89661C28F622001471A2 /* rtprandom.cpp in Sources */,
+				B3FA89541C28F622001471A2 /* rtcppacketbuilder.cpp in Sources */,
+				B3FA895D1C28F622001471A2 /* rtperrors.cpp in Sources */,
+				B3FA896D1C28F622001471A2 /* rtpsourcedata.cpp in Sources */,
+				B3FA89601C28F622001471A2 /* rtpipv4address.cpp in Sources */,
+				B3FA895A1C28F622001471A2 /* rtpbyteaddress.cpp in Sources */,
+				B3FA894F1C28F622001471A2 /* rtcpapppacket.cpp in Sources */,
+				B3FA895E1C28F622001471A2 /* rtpexternaltransmitter.cpp in Sources */,
+				B3FA89631C28F622001471A2 /* rtppacket.cpp in Sources */,
+				B3FA89671C28F622001471A2 /* rtprandomrand48.cpp in Sources */,
+				B3FA896E1C28F622001471A2 /* rtpsources.cpp in Sources */,
+				B3FA89651C28F622001471A2 /* rtppollthread.cpp in Sources */,
+				B3FA895C1C28F622001471A2 /* rtpdebug.cpp in Sources */,
+				B3FA89511C28F622001471A2 /* rtcpcompoundpacket.cpp in Sources */,
+				B3FA89641C28F622001471A2 /* rtppacketbuilder.cpp in Sources */,
+				B3FA89681C28F622001471A2 /* rtprandomrands.cpp in Sources */,
+				B3FA89611C28F622001471A2 /* rtpipv6address.cpp in Sources */,
+				B3FA89591C28F622001471A2 /* rtcpsrpacket.cpp in Sources */,
+				B3FA895B1C28F622001471A2 /* rtpcollisionlist.cpp in Sources */,
+				B3FA896A1C28F622001471A2 /* rtpsession.cpp in Sources */,
+				B3FA89531C28F622001471A2 /* rtcppacket.cpp in Sources */,
+				B3FA895F1C28F622001471A2 /* rtpinternalsourcedata.cpp in Sources */,
+				B3FA896F1C28F622001471A2 /* rtptimeutilities.cpp in Sources */,
+				B3FA894E1C28F622001471A2 /* jmutex.cpp in Sources */,
+				B3FA89711C28F622001471A2 /* rtpudpv6transmitter.cpp in Sources */,
+				B3FA896B1C28F622001471A2 /* rtpsessionparams.cpp in Sources */,
+				B3FA89501C28F622001471A2 /* rtcpbyepacket.cpp in Sources */,
+				B3FA89551C28F622001471A2 /* rtcprrpacket.cpp in Sources */,
+				B3FA89691C28F622001471A2 /* rtprandomurandom.cpp in Sources */,
+				B3FA89571C28F622001471A2 /* rtcpsdesinfo.cpp in Sources */,
+				B3FA89621C28F622001471A2 /* rtplibraryversion.cpp in Sources */,
+				B3FA89701C28F622001471A2 /* rtpudpv4transmitter.cpp in Sources */,
+				B3FA89581C28F622001471A2 /* rtcpsdespacket.cpp in Sources */,
+				B3FA89561C28F622001471A2 /* rtcpscheduler.cpp in Sources */,
+				B3FA896C1C28F622001471A2 /* rtpsessionsources.cpp in Sources */,
+				B3FA89521C28F622001471A2 /* rtcpcompoundpacketbuilder.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +454,7 @@
 		B3F9E66C1BFC088E0052EA85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -221,6 +464,7 @@
 		B3F9E66D1BFC088E0052EA85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -246,6 +490,7 @@
 				B3F9E66D1BFC088E0052EA85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
